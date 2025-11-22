@@ -125,37 +125,45 @@ src/
 
 ```json
 {
-  "title": "Bounty Title",
-  "description": "Bounty Description...",
-  "type": "Development",
-  "dominant_core": "Social",
-  "mode": "digital",
-  "location": "",
+  "title": "Demo",
+  "description": "DemoDemoDemoDemoDemoDemo",
+  "projectTitle": "Demo",
+  "type": "Design",
+  "dominant_core": "Earth",
+  "mode": "physical",
+  "location": "Aurangabad",
   "reward": {
-    "currency": "USD",
-    "amount": 500,
-    "winners": 1
+    "currency": "INR",
+    "amount": 5000,
+    "winners": 2
   },
   "timeline": {
-    "expiration_date": "2025-12-31",
+    "expiration_date": "2025-12-11T00:00:00.000Z",
     "estimated_completion": {
-      "days": 2,
-      "hours": 4,
+      "days": 20,
+      "hours": 0,
       "minutes": 0
     }
   },
-  "hasImpactCertificate": true,
-  "impactBriefMessage": "Impact Brief",
-  "sdgs": ["Climate Action"],
-  "has_backer": true,
-  "backer": {
-    "name": "Sponsor",
-    "logo": "https://example.com/logo.png",
-    "message": "Thanks!"
+  "hasImpactCertificate": false,
+  "sdgs": [
+    "Zero Hunger"
+  ],
+  "has_backer": false,
+  "config": {
+    "autoApproval": false,
+    "multipleSubmissions": true,
+    "publicLeaderboard": false,
+    "submissionFormat": "URL Link"
   },
-  "config": { ... },
-  "criteria": [ ... ],
-  "microtasks": [ ... ],
+  "criteria": [
+    {
+      "name": "DemoDemoDemo",
+      "description": "DemoDemo",
+      "weight": 15
+    }
+  ],
+  "hasMicrotasks": false,
   "terms_accepted": true
 }
 ````
@@ -175,8 +183,7 @@ Runs on: → [http://localhost:5173](http://localhost:5173)
 
 ## 🚢 Deployment
 
-🔗 Live link will be added after Vercel deployment
-(I can deploy as soon as repo is ready)
+🔗(https://bounty-creation-platform-mna5.vercel.app/)
 
 ---
 
